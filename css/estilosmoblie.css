@@ -1,0 +1,489 @@
+
+/************************** PREFIJOS GENERALES *************************/
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+    h1, h2, h3, h4, h5 {
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    p {font-family: 'IBM Plex Mono', monospace;
+        font-size: 16px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 24px;}
+
+    a{ font-family: 'IBM Plex Mono', monospace;
+        text-decoration: none;}
+
+    h1 {
+        font-size: 36px;
+        color: #060A24;
+        letter-spacing: 0;
+        margin: 0px 0 25px 0;
+        width: 80%;
+        padding-top: 80px;
+    }
+
+    h2 {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        font-size: 36px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 42px;  
+        margin-left: 5vw;
+    }
+
+    body {
+        max-width: 1440px;
+    }
+/************************** PREFIJOS GENERALES *************************/
+
+
+
+
+
+
+
+
+/*********************** MENU - PANTALLAS PEQUEÑAS *********************/
+    .contenedor-menu {
+        width: 100%;
+        height: 44px;
+        display: inline-block; 
+}
+
+
+    .label {
+        display: block;
+        text-align: right;
+        position: relative;
+        top: 14px;
+        right: 25px;
+        bottom: 16px;
+        color: black;
+        margin-bottom: 22px; 
+        margin-left: 90%;
+}
+
+    .logo {
+        float: left;
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 10px; 
+    }
+
+    .menu {
+        position: absolute;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 0.5s;
+        background: #0000EC;
+}
+
+    .menu ul li {
+        margin-left: 5px;    
+}
+    .menu ul li a{
+        color: white;
+}
+
+    li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+     }
+
+     #toggle {
+        display: none;
+        float: right;
+        width: 50px;
+}
+
+    #bars{
+        width: 10px;
+        margin-left: 95%;
+ }
+
+    #cross{
+        display: none;
+        width: 10px;
+        margin-left: 95%;
+}
+
+    #toggle:checked + label #cross{
+        display: block;
+}
+
+    #toggle:checked + label #bars{
+        display: none;
+}
+
+    #toggle:checked ~ .menu {
+            margin: 0px; 
+ }
+
+    .menu ul li a:hover{
+        color: #00F3BB;
+ }
+
+
+    .menu ul li a:active{
+      color: rgba(6,10,36,0.56);
+      line-height: 28px;
+      text-decoration: line-through;
+}
+/*********************** MENU - PANTALLAS PEQUEÑAS *********************/
+
+
+    
+
+
+/**************** TITULO PRINCIPAL - PANTALLAS PEQUEÑAS ***************/
+    .tachado {text-decoration: line-through;
+}
+
+    .punto {color: #0000EC;
+    font-size: 36px;
+}
+
+
+
+    .contenedor-titulo{
+    width: 90%;
+}
+
+    /* .titulo-principal {width: 60%; } */
+
+    .boton {
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    background-color: #00F3BB;
+     margin: 20px auto;
+    text-align: center;
+    padding-top: 9px;
+    
+}
+
+    .boton:hover  {
+        background: linear-gradient(to left, #0000FE, #00F0B8);
+    }
+
+
+    .boton a{text-decoration: none;
+    color: white;
+
+    }
+
+    .boton p{
+    width: auto;
+    font-size: 1.2em;
+    }
+
+    .tipo-botones{
+        font-size: 16px;
+        color: #060A24;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        font-weight: 500;
+    }
+/**************** TITULO PRINCIPAL - PANTALLAS PEQUEÑAS ***************/
+
+
+
+
+
+
+
+
+
+/**************** IFRAMES - PANTALLAS PEQUEÑAS ***************/
+
+
+       .linea-oblicua{
+        height: 1280px;
+        margin-top: 470px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        background-image: linear-gradient(#0000FF, #0000A3);   
+        transform: skewY(-6deg);
+        transform-origin: bottom right;
+      }
+
+        .titulo-episodios{
+            position: relative;
+        }
+
+        .titulo-episodios h2{
+            margin-top: 160px;
+            position: relative;
+            color: #ffffff;
+        }
+
+
+        iframe {
+        width: 100%;
+        position: relative;
+        height: 232px;
+        border: 0;
+         }
+
+
+        .caja-uno {
+            position: relative;
+            width: 100%;
+            margin-bottom: 0;
+        }
+
+        .caja-dos {
+            position: relative;
+            width: 100%;
+            margin-bottom: 0;
+        }
+
+        .caja-tres {
+            position: relative;
+            width: 100%;
+            margin-bottom: 0;
+        }
+
+        .caja-cuatro {
+            position: relative;
+            width: 100%;
+            margin-bottom: 0;
+        }
+ /**************** IFRAMES - PANTALLAS PEQUEÑAS ***************/
+
+
+
+
+
+
+
+
+
+
+
+
+/*************** SECCION CELULAR - PANTALLAS PEQUEÑAS ***************/
+    .contenedor-super {
+        width: 100%;
+        height: 800px;
+        display: inline-block;
+
+    }
+
+    .img-super{
+        height: auto;
+        width: 100%;
+        position: absolute;
+
+    }
+
+
+    .img-super img {
+        height: auto;
+        width: 320px;
+        display:block;
+        margin: 4vh auto 4vh auto;
+    }
+
+
+    .parrafo-celular{
+        margin: 0 auto 0;
+    width: 100%;
+    position: relative;
+    margin-top: 570px;
+    }
+
+    .parrafo-celular h2 {
+        width: 80%;
+        margin-left: 5vw;
+    }
+
+
+    .parrafo-celular p {
+        width: 90%
+    }
+/*************** SECCION CELULAR - PANTALLAS PEQUEÑAS ***************/
+
+
+
+
+
+
+
+
+/*************** INVITADOS - PANTALLAS PEQUEÑAS ***************/
+    .titulo-invitados {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+
+    .club {
+    height: auto;
+    width: 100%; 
+    margin: 0 auto;
+    }
+/*************** INVITADOS - PANTALLAS PEQUEÑAS ***************/
+
+
+
+
+
+
+
+
+
+
+
+/*************** ICONOS - PANTALLAS PEQUEÑAS ***************/
+.titulo-temas h2{
+
+    width: 80%;
+    margin-top: 2vh;
+}
+
+.iconos {
+    width: 104px;
+    height: 104px;
+    margin-bottom: 1vh;
+}
+
+.bloques{
+    margin-bottom: 10vh;
+}
+
+.bloques p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+
+.bloques img {
+    height: auto;
+    width:104px;
+    display:block;
+    margin: 4vh auto 4vh auto;
+  }
+
+.semiblod {font-weight: 600;
+    font-size: 24px;
+    color: #060A24;
+    text-align: center;}
+/*************** ICONOS - PANTALLAS PEQUEÑAS ***************/
+
+
+
+
+
+
+
+
+/*************** NOVEDADES - PANTALLAS PEQUEÑAS ***************/
+    .contenedor-novedades{
+
+        position: relative;
+        height: 60vh;
+        overflow: hidden;
+    }
+
+
+
+
+
+    .footer__bg {
+
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(#0000FF, #0000A3);   
+        transform: skewY(-6deg);
+        transform-origin: bottom right;
+    }
+
+
+
+    .contenedor-novedades h2 {
+        margin: 20vh 0 0 0;
+        font-size: 2em;
+        text-align: center;
+        position: relative;
+        color: white;
+    }
+
+    .boton-novedades {
+
+        margin: 5vh auto;
+        padding-top: 8px;
+        width: 90%;
+        height: 40px;
+        background-color: #00F3BB;
+        text-align: center;
+        position: relative;
+
+    }
+
+
+    .boton-novedades a {
+        text-decoration: none;
+        color: white;
+    }
+/*************** NOVEDADES - PANTALLAS PEQUEÑAS ***************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************** FOOTER - PANTALLAS PEQUEÑAS ***************/
+.pie {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pie p {
+    text-align: center;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+.redes i{
+    margin: 0 10px 0 10px;
+    margin-bottom: 3vh;}
+
+    
+.hyper {
+        text-decoration: none;    
+        color: black;
+ }
+/*************** FOOTER - PANTALLAS PEQUEÑAS ***************/
+

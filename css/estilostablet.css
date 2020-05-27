@@ -1,0 +1,498 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 650px){
+
+        
+/*************** PREFIJOS GENERALES - PANTALLAS GRANDES****************/
+        h1{font-size: 64px;
+            color: #060A24;
+            letter-spacing: 0;
+            margin-left: 7vw;
+            margin-top: 45px; 
+            font-weight: 400;}
+
+        h2 {
+            margin-left: 12vw;
+            margin-bottom: 20px;
+            font-size: 48px;
+            color: #060A24;
+            letter-spacing: 0;
+            font-weight: 400;
+        }
+
+        a {font-size: 16px;
+            color: black;
+        }
+/*************** PREFIJOS GENERALES - PANTALLAS GRANDES****************/
+
+
+
+
+
+
+
+
+
+/*********************** MENU - PANTALLAS GRANDES *********************/
+    .contenedor-menu {
+            height: 85px; 
+            display: flex; 
+            align-items: center;}
+
+    .label {
+            display: none; }
+
+    .logo {
+            width: 35px;
+            height: 35px;
+            margin-top: 15px;
+            margin-left: 20px;}
+     
+    .menu {
+            position: relative; 
+            width: 85%;
+            transition: none;
+            margin-left: 0%;
+            text-align: end; 
+            background-color: white; }
+
+            
+    .menu  ul li a{ color: black;
+            margin-right: 10px;}
+
+
+    li {
+            border-bottom: none; 
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px; }
+/*********************** MENU - PANTALLAS GRANDES *********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+/**************** TITULO PRINCIPAL - PANTALLAS GRANDES ***************/
+   .punto {color: #0000EC;
+    font-size: 64px;
+}
+
+   .parrafo-titulo{
+       width: 100%;
+       margin-left: 5vw;
+   }
+
+   .contenedor-titulo .parrafo-titulo {
+       margin: 0 0 0 7vw;
+   }
+   
+   
+   .boton {
+       padding-top: 8px;
+       margin: 40px 0 60px 7vw; 
+       border-radius: 1px;
+       width: 240px;
+       height: 40px;
+       background-color: #00F3BB;
+       text-align: center;
+      
+    }
+   
+   .boton a{text-decoration: none;
+      color: white;
+   } 
+
+   .tipo-botones {
+
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 500;
+   }
+/**************** TITULO PRINCIPAL - PANTALLAS GRANDES ***************/
+   
+
+   
+   
+   
+
+
+
+
+   
+   
+   
+ /**************** IFRAMES - PANTALLAS GRANDES ***************/
+   .linea-oblicua{
+       height: 850px;
+       margin: 570px auto 0 auto;
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       right: 0;
+       left: 0;
+       width: 100%;
+       background-image: linear-gradient(#0000FF, #0000A3);   
+        transform: skewY(-6deg);
+       transform-origin: bottom right;
+   }
+    
+
+
+
+
+   
+    .titulo-episodios{
+      position: relative;
+  
+   }
+
+
+   
+   .titulo-episodios h2{
+    margin-top: 165px;
+    margin-bottom: 40px;
+    }
+
+   iframe {
+     
+       position: relative;
+       }
+
+    .flex-iframe{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+   
+    .caja-uno{
+        width: 45%;
+        margin-bottom: 40px;
+
+    }
+   
+    .caja-dos{
+        width: 45%;
+        margin-bottom: 40px;
+    }
+   
+    .caja-tres{
+        width: 45%;
+
+   }
+   
+   .caja-cuatro{
+    width: 45%;
+
+   } 
+/**************** IFRAMES - PANTALLAS GRANDES ***************/
+
+   
+   
+   
+   
+   
+   
+   
+
+
+   
+/*************** SECCION CELULAR - PANTALLAS GRANDES ***************/
+   .contenedor-super {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    margin-top: 550px;
+    max-width: 1500px;
+}
+
+    .img-super{
+        width: 500px;
+        
+}
+    .img-super img {width: 460px;
+    transform: translate(0, -501px);
+}
+
+    .parrafo-celular{
+    width: 40%;
+    transform: translate(200px, -950px);
+}
+
+    .parrafo-celular h2 {
+        width: 100%;
+        margin-left: 2vw;
+        margin-top: 20px;
+        margin-bottom: 40px;
+}
+/*************** SECCION CELULAR - PANTALLAS GRANDES ***************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************** INVITADOS - PANTALLAS GRANDES ***************/
+ .titulo-invitados {
+    margin-top: 200px;  
+    margin-bottom: 50px;
+}
+
+
+.transition {
+    
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.club {
+    width: 33.3%;
+    height: 250px;
+}
+ /*************** INVITADOS - PANTALLAS GRANDES ***************/
+
+
+
+
+
+
+
+
+/*************** ICONOS - PANTALLAS GRANDES ***************/
+.titulo-temas{
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+}
+ .iconos-galeria{ 
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around
+}
+
+.iconos {
+    
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    
+}
+
+
+.galeria {
+    display: flex;
+   flex-direction: row;
+   margin-bottom: 50px;
+   width: auto;
+}
+
+.bloques p{
+ 
+    font-size: 24px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.bloques{
+    margin: 0 15px;}
+    
+    
+    
+
+.bloques img {
+    height: auto;
+    display:block;
+    margin: 4vh auto 4vh auto;
+  }
+
+
+.semiblod {
+    font-size: 24px;
+    color: #060A24;
+    text-align: center;}
+    
+/*************** ICONOS - PANTALLAS GRANDES ***************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************** NOVEDADES - PANTALLAS GRANDES ***************/
+.contenedor-novedades{
+    margin-top: 20px;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1500px;
+}
+
+
+.footer__bg {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#0000FF, #0000A3);
+    transform: skewY(-4deg);
+    transform-origin: bottom right;
+  }
+
+
+
+  .contenedor-novedades h2 {
+    margin: 220px 0 45px 0;
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+  }
+
+ .boton-novedades {
+
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 300px;
+    height: 40px;
+    background-color: #00F3BB;
+    text-align: center;
+    position: relative;
+ }
+/*************** NOVEDADES - PANTALLAS GRANDES ***************/
+
+
+
+
+
+
+
+/*************** FOOTER - PANTALLAS PEQUEÑAS ***************/
+ .pie {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1500px;
+}
+
+
+.pie p {
+   text-align: start;
+   width: 50%;
+
+}
+
+
+.redes i{
+    margin: 0 15px;
+}
+/*************** FOOTER - PANTALLAS PEQUEÑAS ***************/
+
+
+} 
+/*************** FIN 700PX ***************/
+
+
+
+@media screen and (min-width: 1024px){
+
+/*********** PEQUEÑOS AJUSTES PARA PANTALLAS MAS GRANEDES ***************/
+h2{margin-left: 12vw;}
+
+
+    .linea-oblicua{
+        height: 850px;
+        margin: 480px auto 0 auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        max-width: 1500px;
+        background-image: linear-gradient(#0000FF, #0000A3);
+        transform: skewY(-5deg);
+        transform-origin: bottom right;
+    }
+
+     .parrafo-titulo{
+        width: 50%;}
+    
+    .club {
+        margin: 0;
+        width: 33.3%;
+        height: 364px;
+    }
+
+
+    .img-super{
+        width: 500px;
+        
+    }
+
+    .img-super img {width: 460px;
+    transform: translate(100px, -500px);
+    }
+
+    .parrafo-celular{
+       width: 40%;
+       transform: translate(270px, -850px);
+       }
+
+
+    .galeria {
+        width: 70%;
+        justify-content: space-around;}
+
+
+    .bloques p {width: 220px;}
+  /*********** PEQUEÑOS AJUSTES PARA PANTALLAS MAS GRANEDES ***************/
+
+}
+/*************** FIN 1050PX ***************/
+
+
